@@ -1,0 +1,20 @@
+{
+  "name": "Reaching-TalentBE",
+  "version": "1.0.0",
+  "description": "Reaching Talent BE es la parte Back End del proyecto  Reaching Talent donde trabajaremos con tecnologias como\r ° Express para crear en servidor \r ° MongoDB funcionara como base de datos\r ° Heroku para hacer el deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0KarenGarcia/Reaching-TalentBE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0KarenGarcia/Reaching-TalentBE/issues"
+  },
+  "homepage": "https://github.com/0KarenGarcia/Reaching-TalentBE#readme"
+}
