@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/0KarenGarcia/Reaching-TalentBE/issues"
   },
-  "homepage": "https://github.com/0KarenGarcia/Reaching-TalentBE#readme"
+  "homepage": "https://github.com/0KarenGarcia/Reaching-TalentBE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongose": "0.0.2-security",
+    "node": "^13.3.0"
+  }
 }
