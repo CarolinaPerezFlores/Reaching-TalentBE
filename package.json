@@ -4,7 +4,7 @@
   "description": "Reaching Talent BE es la parte Back End del proyecto  Reaching Talent donde trabajaremos con tecnologias como\r ° Express para crear en servidor \r ° MongoDB funcionara como base de datos\r ° Heroku para hacer el deploy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,15 @@
   "homepage": "https://github.com/0KarenGarcia/Reaching-TalentBE#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
     "cors": "^2.8.5",
     "cross": "^1.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.7.13",
     "node": "^13.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
   }
 }

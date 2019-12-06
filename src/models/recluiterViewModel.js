@@ -4,5 +4,5 @@ const firstSchema= new Schema({
     msj: String
 })
 
-const first= model ("msj ", firstScheam);
+const first= model ("msj ", firstSchema);
 module.exports= first;

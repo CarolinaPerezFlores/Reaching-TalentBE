@@ -1,7 +1,14 @@
-const express = require('express');
-const router = express.Router();
+var express = require('express');
+var router= express();
 
-router.get(`/first`,(res)=>{
-    res.send(JSON.stringify(first))
-    return
-});
+//const firstS = require (`../models/recluiterView`)
+
+router.get('/',function(req,res){
+    res.send("hello word")
+       console.log("msj");
+       
+})
+ 
+
+
+module.exports= router;
