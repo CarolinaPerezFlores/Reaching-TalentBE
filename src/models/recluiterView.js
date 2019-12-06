@@ -1,8 +1,8 @@
 const { Schema, model } = require('mongoose');
 
-const firstSchema= new Schema({
+const firstScheme= new Schema({
     msj: String
 })
 
-const first= model ("msj ", firstScheam);
+const first= model ("msj ", firstScheme);
 module.exports= first;

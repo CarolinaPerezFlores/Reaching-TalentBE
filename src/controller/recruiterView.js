@@ -1,7 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-router.get(`/first`,(res)=>{
-    res.send(JSON.stringify(first))
-    return
-});
+
+
+router.get('/me',(res)=>{
+    res.json("hola");
+        console.log("msj");
+        
+ })
+
+ module.exports= router;
